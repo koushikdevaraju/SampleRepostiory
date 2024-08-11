@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .details-block {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .block{
+            width: 200px;
+            height: 100px;
+        }
+        .parent{
+            align-items: center;
+            width: 100%;
+            background-color: red;
+        }
+        .child{
+            text-align: center;
+            background: yellow;
+        }
+    </style>
+</head>
+<style>
+</style>
+<body>
+<div class="block">
+    <details class="details-block">
+        <summary>Detail 1</summary>
+        Here is my first summary
+    </details>
+</div>
+
+<div class="parent">
+    Hello World
+    <div class="child">
+        <p>Some Random text is Important</p>
+    </div>
+</div>
+
+</body>
+</html>
